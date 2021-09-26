@@ -1,0 +1,40 @@
+[2021-09-24 08:27:51.548] [exthost] [info] extension host started
+[2021-09-24 08:27:51.554] [exthost] [error] Error: EEXIST: file already exists, open '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock'
+[2021-09-24 08:27:51.572] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-09-24 08:27:51.580] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': The lock does not look stale, elapsed: 615 ms, giving up.
+[2021-09-24 08:27:51.580] [exthost] [error] Error: EEXIST: file already exists, open '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d-1/vscode.lock'
+[2021-09-24 08:27:51.581] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-09-24 08:27:51.582] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d-1/vscode.lock': The pid 27360 appears to be gone.
+[2021-09-24 08:27:51.582] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d-1/vscode.lock': Deleting a stale lock.
+[2021-09-24 08:27:51.583] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d-1/vscode.lock': Lock acquired.
+[2021-09-24 08:27:51.750] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-09-24 08:27:51.751] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/typescript-language-features/dist/extension
+[2021-09-24 08:27:51.860] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-24 08:27:51.860] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/debug-auto-launch/dist/extension
+[2021-09-24 08:27:51.866] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-24 08:27:51.866] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/git/dist/main
+[2021-09-24 08:27:53.337] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-24 08:27:53.337] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/github/dist/extension.js
+[2021-09-24 08:27:53.916] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-24 08:27:53.922] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-24 08:27:53.980] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-24 08:27:53.985] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-24 08:27:53.994] [exthost] [info] eager extensions activated
+[2021-09-24 08:27:54.050] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-24 08:27:54.051] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-24 11:33:29.623] [exthost] [info] extension host terminating: renderer disconnected for too long (1)
+[2021-09-24 11:33:29.626] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-09-24 11:33:29.642] [exthost] [error] Activating extension ms-vscode.js-debug failed due to an error:
+[2021-09-24 11:33:29.649] [exthost] [error] Canceled: Canceled
+	at Object.n [as canceled] (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:5:1157)
+	at /home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:98:8805
+	at Array.forEach (<anonymous>)
+	at i.dispose (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:98:8753)
+	at E.terminate (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:103:682)
+	at a (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:113:32208)
+	at y.runner (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:113:28772)
+	at y.doRun (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:73:18324)
+	at y.onTimeout (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:73:18290)
+	at listOnTimeout (internal/timers.js:554:17)
+	at processTimers (internal/timers.js:497:7)
+[2021-09-24 11:33:30.641] [exthost] [info] exiting with code 0

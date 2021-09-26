@@ -1,0 +1,18 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+Extension host agent listening on 39215
+
+[02:16:52] Extension host agent started.
+[02:16:52] [127.0.0.1][0d23f849][ManagementConnection] Unknown reconnection token.
+[07:14:16] No ptyHost heartbeat after 6 seconds
+[07:17:28] No ptyHost heartbeat after 6 seconds
+[07:25:28] No ptyHost heartbeat after 6 seconds
+[07:35:26] No ptyHost heartbeat after 6 seconds
+[07:48:08] No ptyHost heartbeat after 6 seconds

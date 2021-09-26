@@ -1,0 +1,32 @@
+[2021-09-24 03:39:13.254] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-09-24 03:39:13.254] [remoteagent] [info] Extension host agent started.
+[2021-09-24 03:39:13.505] [remoteagent] [info] [127.0.0.1][9723efa1][ExtensionHostConnection] New connection established.
+[2021-09-24 03:39:13.506] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] New connection established.
+[2021-09-24 03:39:14.078] [remoteagent] [info] [127.0.0.1][9723efa1][ExtensionHostConnection] <23502> Launched Extension Host Process.
+[2021-09-24 03:57:01.525] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] The client has reconnected.
+[2021-09-24 03:57:01.561] [remoteagent] [info] [127.0.0.1][9723efa1][ExtensionHostConnection] The client has reconnected.
+[2021-09-24 04:05:06.910] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-24 04:10:34.050] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-09-24 04:10:34.051] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] The client has reconnected.
+[2021-09-24 04:15:35.080] [remoteagent] [info] [127.0.0.1][9723efa1][ExtensionHostConnection] <23502> Extension Host Process exited with code: 0, signal: null.
+[2021-09-24 04:15:35.081] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-09-24 04:18:43.520] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-24 04:20:17.510] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-09-24 04:20:17.510] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-09-24 04:20:17.574] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-09-24 04:20:17.575] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] The client has reconnected.
+[2021-09-24 04:20:52.111] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2021-09-24 04:20:52.111] [remoteagent] [info] Cancelling previous shutdown timeout
+[2021-09-24 04:20:52.170] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] The client has reconnected.
+[2021-09-24 04:20:55.123] [remoteagent] [error] [127.0.0.1][9723efa1][ExtensionHostConnection] Unknown reconnection token.
+[2021-09-24 04:20:55.182] [remoteagent] [info] [127.0.0.1][f6b0583b][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-09-24 04:25:52.113] [remoteagent] [info] Last EH closed, shutting down

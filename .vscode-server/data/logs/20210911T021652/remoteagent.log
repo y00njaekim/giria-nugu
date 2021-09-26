@@ -1,0 +1,17 @@
+[2021-09-11 02:16:52.158] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-09-11 02:16:52.158] [remoteagent] [info] Extension host agent started.
+[2021-09-11 02:16:52.374] [remoteagent] [error] [127.0.0.1][0d23f849][ManagementConnection] Unknown reconnection token.
+[2021-09-24 07:14:17.410] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 07:20:06.765] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 07:28:29.744] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 07:37:21.013] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 07:53:05.400] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,40 @@
+[2021-09-24 08:12:01.781] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-09-24 08:12:01.781] [remoteagent] [info] Extension host agent started.
+[2021-09-24 08:12:07.087] [remoteagent] [info] [127.0.0.1][3fb03701][ManagementConnection] New connection established.
+[2021-09-24 08:12:07.241] [remoteagent] [info] [127.0.0.1][817be355][ExtensionHostConnection] New connection established.
+[2021-09-24 08:12:07.248] [remoteagent] [info] [127.0.0.1][817be355][ExtensionHostConnection] <3147> Launched Extension Host Process.
+[2021-09-24 08:12:13.195] [remoteagent] [info] [127.0.0.1][3fb03701][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2021-09-24 08:12:14.123] [remoteagent] [info] [127.0.0.1][46dcdf4b][ManagementConnection] New connection established.
+[2021-09-24 08:12:14.199] [remoteagent] [info] [127.0.0.1][817be355][ExtensionHostConnection] <3147> Extension Host Process exited with code: 0, signal: null.
+[2021-09-24 08:12:14.199] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-09-24 08:12:14.243] [remoteagent] [info] [127.0.0.1][15672d44][ExtensionHostConnection] New connection established.
+[2021-09-24 08:12:14.255] [remoteagent] [info] [127.0.0.1][15672d44][ExtensionHostConnection] <3176> Launched Extension Host Process.
+[2021-09-24 08:26:17.211] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 08:26:17.407] [remoteagent] [info] New EH opened, aborting shutdown
+[2021-09-24 08:26:18.596] [remoteagent] [info] [127.0.0.1][46dcdf4b][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-24 08:27:49.303] [remoteagent] [info] [127.0.0.1][46dcdf4b][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-09-24 08:27:49.304] [remoteagent] [info] [127.0.0.1][da8289d7][ManagementConnection] New connection established.
+[2021-09-24 08:27:50.407] [remoteagent] [info] [127.0.0.1][8fcb9e2c][ExtensionHostConnection] New connection established.
+[2021-09-24 08:27:50.416] [remoteagent] [info] [127.0.0.1][8fcb9e2c][ExtensionHostConnection] <4272> Launched Extension Host Process.
+[2021-09-24 08:27:51.684] [remoteagent] [error] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[2021-09-24 08:28:31.153] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 08:29:17.688] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 08:30:08.109] [remoteagent] [info] [127.0.0.1][da8289d7][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-24 08:30:49.104] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 08:32:11.550] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 08:32:51.687] [remoteagent] [warning] No ptyHost heartbeat after 6 seconds
+[2021-09-24 08:33:20.764] [remoteagent] [info] [127.0.0.1][46dcdf4b][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2021-09-24 08:33:32.697] [remoteagent] [info] [127.0.0.1][15672d44][ExtensionHostConnection] <3176> Extension Host Process exited with code: 0, signal: null.
+[2021-09-24 11:30:09.451] [remoteagent] [info] [127.0.0.1][da8289d7][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2021-09-24 11:33:30.649] [remoteagent] [info] [127.0.0.1][8fcb9e2c][ExtensionHostConnection] <4272> Extension Host Process exited with code: 0, signal: null.
+[2021-09-24 11:33:30.650] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-09-24 11:38:30.650] [remoteagent] [info] Last EH closed, shutting down

@@ -1,0 +1,43 @@
+[2021-09-24 08:12:15.639] [exthost] [info] extension host started
+[2021-09-24 08:12:15.643] [exthost] [error] Error: EEXIST: file already exists, open '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock'
+[2021-09-24 08:12:15.658] [exthost] [error] SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at v (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:94470)
+    at async o (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:94111)
+    at async A._getWorkspaceStorageURI (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:92756)
+    at async A._getOrCreateWorkspaceStoragePath (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:30398)
+[2021-09-24 08:12:15.658] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-09-24 08:12:15.668] [exthost] [error] SyntaxError: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at v (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:94470)
+	at async E (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:94728)
+	at async A._getWorkspaceStorageURI (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:92756)
+	at async A._getOrCreateWorkspaceStoragePath (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:30398)
+[2021-09-24 08:12:15.668] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': Could not read pid of lock holder.
+[2021-09-24 08:12:15.668] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': Deleting a stale lock.
+[2021-09-24 08:12:15.670] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': Lock acquired.
+[2021-09-24 08:12:16.930] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-09-24 08:12:16.933] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/typescript-language-features/dist/extension
+[2021-09-24 08:12:17.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-24 08:12:17.005] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/debug-auto-launch/dist/extension
+[2021-09-24 08:12:17.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-24 08:12:17.010] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/git/dist/main
+[2021-09-24 08:12:17.441] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-24 08:12:17.441] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/github/dist/extension.js
+[2021-09-24 08:12:17.760] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-24 08:12:17.762] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-24 08:12:17.814] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-24 08:12:17.819] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-24 08:12:17.832] [exthost] [info] eager extensions activated
+[2021-09-24 08:12:17.949] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-24 08:12:17.950] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-24 08:14:00.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2021-09-24 08:14:00.856] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/extensions/extension-editing/dist/extensionEditingMain
+[2021-09-24 08:33:05.686] [exthost] [info] extension host terminating: renderer disconnected for too long (2)
+[2021-09-24 08:33:26.226] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2021-09-24 08:33:30.582] [exthost] [error] SyntaxError: Unexpected end of JSON input
+	at JSON.parse (<anonymous>)
+	at v (/home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:94470)
+	at async /home/keymy00njae/.vscode-server/bin/7f6ab5485bbc008386c4386d08766667e155244e/out/vs/server/remoteExtensionHostProcess.js:95:93347
+[2021-09-24 08:33:30.582] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': The lock was lost unexpectedly.
+[2021-09-24 08:33:31.523] [exthost] [info] exiting with code 0

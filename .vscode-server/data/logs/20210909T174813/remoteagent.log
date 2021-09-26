@@ -1,0 +1,25 @@
+[2021-09-09 17:48:13.396] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2021-09-09 17:48:13.396] [remoteagent] [info] Extension host agent started.
+[2021-09-09 17:48:13.625] [remoteagent] [error] [127.0.0.1][1de7b0ae][ManagementConnection] Unknown reconnection token.
+[2021-09-11 01:09:16.874] [remoteagent] [info] [127.0.0.1][0d23f849][ManagementConnection] New connection established.
+[2021-09-11 01:09:17.034] [remoteagent] [info] [127.0.0.1][d15b0ec1][ExtensionHostConnection] New connection established.
+[2021-09-11 01:09:17.047] [remoteagent] [info] [127.0.0.1][d15b0ec1][ExtensionHostConnection] <22276> Launched Extension Host Process.
+[2021-09-11 01:24:30.970] [remoteagent] [info] [127.0.0.1][d15b0ec1][ExtensionHostConnection] The client has reconnected.
+[2021-09-11 01:24:32.664] [remoteagent] [info] [127.0.0.1][0d23f849][ManagementConnection] The client has reconnected.
+[2021-09-11 01:24:35.912] [remoteagent] [info] [127.0.0.1][d15b0ec1][ExtensionHostConnection] The client has reconnected.
+[2021-09-11 01:32:36.679] [remoteagent] [info] [127.0.0.1][0d23f849][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-11 01:50:18.512] [remoteagent] [info] [127.0.0.1][0d23f849][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2021-09-11 01:50:18.513] [remoteagent] [info] [127.0.0.1][0d23f849][ManagementConnection] The client has reconnected.
+[2021-09-11 01:55:19.546] [remoteagent] [info] [127.0.0.1][d15b0ec1][ExtensionHostConnection] <22276> Extension Host Process exited with code: 0, signal: null.
+[2021-09-11 01:55:19.546] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2021-09-11 01:58:21.757] [remoteagent] [info] [127.0.0.1][0d23f849][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2021-09-11 02:00:19.548] [remoteagent] [info] Last EH closed, shutting down

@@ -1,0 +1,20 @@
+[2021-09-24 07:17:08.361] [exthost] [info] extension host started
+[2021-09-24 07:17:08.370] [exthost] [error] Error: EEXIST: file already exists, open '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock'
+[2021-09-24 07:17:08.399] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2021-09-24 07:17:08.405] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d/vscode.lock': The lock does not look stale, elapsed: 868 ms, giving up.
+[2021-09-24 07:17:08.410] [exthost] [info] Lock '/home/keymy00njae/.vscode-server/data/User/workspaceStorage/7fc4c10cffd935e2e64412392e02447d-1/vscode.lock': Lock acquired.
+[2021-09-24 07:17:08.560] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-09-24 07:17:08.560] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/extensions/typescript-language-features/dist/extension
+[2021-09-24 07:17:08.778] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-24 07:17:08.778] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/extensions/debug-auto-launch/dist/extension
+[2021-09-24 07:17:08.786] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-24 07:17:08.786] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/extensions/git/dist/main
+[2021-09-24 07:17:09.399] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-24 07:17:09.400] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/extensions/github/dist/extension.js
+[2021-09-24 07:17:09.822] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-24 07:17:09.825] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-24 07:17:09.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-24 07:17:09.892] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-24 07:17:09.908] [exthost] [info] eager extensions activated
+[2021-09-24 07:17:10.048] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-24 07:17:10.048] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/keymy00njae/.vscode-server/bin/83bd43bc519d15e50c4272c6cf5c1479df196a4d/extensions/ms-vscode.js-debug/src/extension.js
