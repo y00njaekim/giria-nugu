@@ -1,8 +1,13 @@
-const uuid = require('uuid').v4
-const _ = require('lodash')
-const { DOMAIN } = require('../config')
+console.log('---------------Start /nugu/index.js---------------');
 
-console.log('---------------~/nugu/index.js---------------');
+const uuid = require('uuid').v4;
+console.log('---------------/nugu/index.js 1---------------');
+
+const _ = require('lodash');
+console.log('---------------/nugu/index.js 2---------------');
+
+const {DOMAIN} = require('../config');
+console.log('---------------/nugu/index.js 3---------------');
 
 function getNumber(name) {
   console.log(`---------------function getNumber(name)---------------`);
@@ -68,80 +73,79 @@ function getNumber(name) {
 }
 
 class NPKRequest {
-  constructor (httpReq) {
+  constructor(httpReq) {
     console.log(`---------------NPKRequest constructor---------------`);
-    this.context = httpReq.body.context
-    this.action = httpReq.body.action
-    console.log(`NPKRequest: ${JSON.stringify(this.context)}, ${JSON.stringify(this.action)}`)
+    this.context = httpReq.body.context;
+    this.action = httpReq.body.action;
+    console.log(`NPKRequest: ${JSON.stringify(this.context)}, ${JSON.stringify(this.action)}`);
   }
 
   do(npkResponse) {
     console.log(`---------------do(npkResponse)---------------`);
-    this.actionRequest(npkResponse)
+    this.actionRequest(npkResponse);
   }
 
   actionRequest(npkResponse) {
     console.log(`---------------actionRequest(nkpResponse)---------------`);
     // console.log('actionRequest')
-    console.dir(this.action)
+    console.dir(this.action);
 
-    const actionName = this.action.actionName
-    const parameters = this.action.parameters
+    const actionName = this.action.actionName;
+    const parameters = this.action.parameters;
     // let aa = '나는윤재';
-    
+
     let name = '';
     switch (actionName) {
-    case 'answer.phonenumber':
-      console.log(`---------------case answer.phonenumber---------------`);
-      if(!!parameters) {
-        const nameSlot = parameters.name;
-        if (parameters.length !== 0 && nameSlot) {
-          console.log(`************if1************`);
-          name = nameSlot.value;
-          console.log(`************${name}************`);
+      case 'answer.phonenumber':
+        console.log(`---------------case answer.phonenumber---------------`);
+        if (!!parameters) {
+          const nameSlot = parameters.name;
+          if (parameters.length !== 0 && nameSlot) {
+            console.log(`************if1************`);
+            name = nameSlot.value;
+            console.log(`************${name}************`);
+          }
+          // if(isNaN(name)) {
+          //   console.log(`************if2************`);
+          //   name = '';
+          // }
         }
-        // if(isNaN(name)) {
-        //   console.log(`************if2************`);
-        //   name = '';
-        // }
-      }
-      console.log(1);
-      console.log(`************${name}************`);
-      const numResult = getNumber(name);
-      console.log(2);
-      npkResponse.setOutputParameters(numResult)
-      break;
+        console.log(1);
+        console.log(`************${name}************`);
+        const numResult = getNumber(name);
+        console.log(2);
+        npkResponse.setOutputParameters(numResult);
+        break;
     }
   }
 }
 
 class NPKResponse {
-  constructor () {
+  constructor() {
     console.log(`---------------NPKResponse constructor---------------`);
     // console.log('NPKResponse constructor')
 
-    this.version = '2.0'
-    this.resultCode = 'OK'
-    this.output = {}
-    this.directives = []
+    this.version = '2.0';
+    this.resultCode = 'OK';
+    this.output = {};
+    this.directives = [];
   }
 
   setOutputParameters(numResult) {
     console.log(`---------------setOutputParameters---------------`);
     this.output = {
       phonenumber: '공 육 이 -' + ' 칠 일 오 - ' + numResult.number,
-    }
+    };
   }
-
 }
 
 const nuguReq = function (httpReq, httpRes, next) {
   console.log(`---------------nuguReq---------------`);
-  npkResponse = new NPKResponse()
-  npkRequest = new NPKRequest(httpReq)
-  npkRequest.do(npkResponse)
-  console.log(`NPKResponse: ${JSON.stringify(npkResponse)}`)
-  return httpRes.send(npkResponse)
+  npkResponse = new NPKResponse();
+  npkRequest = new NPKRequest(httpReq);
+  npkRequest.do(npkResponse);
+  console.log(`NPKResponse: ${JSON.stringify(npkResponse)}`);
+  return httpRes.send(npkResponse);
 };
 
 module.exports = nuguReq;
